@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planos · SPIN Tênis de Mesa</title>
+  <meta name="description" content="Planos individuais: treino técnico 1x/semana, 2x/semana e ranking semanal." />
+  <meta property="og:title" content="Planos · SPIN Tênis de Mesa" />
+  <meta property="og:description" content="Planos individuais: treino técnico 1x/semana, 2x/semana e ranking semanal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://spinumuarama.com.br" />
+  <meta property="og:image" content="https://spinumuarama.com.br/assets/og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.10/dist/tailwind.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/favicon.png" />
+  <meta name="theme-color" content="#0ea5e9">
+</head>
+<body class="font-[Inter] bg-gradient-to-b from-sky-50 via-white to-white text-slate-800 antialiased">
+
+<header class="fixed top-0 inset-x-0 z-50 transition bg-white/60 backdrop-blur border-b border-white/30">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/index.html" class="flex items-center gap-3">
+      <img src="/assets/logo.svg" alt="SPIN" class="w-10 h-10 rounded-xl object-contain">
+      <span class="text-xl font-extrabold tracking-tight">SPIN</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="/index.html" class="navlink">Início</a>
+      <a href="/planos.html" class="navlink">Planos</a>
+      <a href="/horarios.html" class="navlink">Horários</a>
+      <a href="/torneios.html" class="navlink">Torneios</a>
+      <a href="/contato.html" class="navlink">Contato</a>
+    </nav>
+    <a href="https://wa.me/5544999762246" class="md:inline-flex hidden items-center gap-2 px-3 py-2 rounded-xl bg-sky-600 text-white text-sm font-semibold shadow hover:shadow-md transition">WhatsApp</a>
+    <button id="menuBtn" class="md:hidden inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-slate-300">Menu</button>
+  </div>
+</header>
+
+<section class="max-w-7xl mx-auto px-4 pt-28 pb-16">
+  <h1 class="text-4xl md:text-5xl font-extrabold">Planos</h1>
+  <p class="mt-2 text-slate-600">Valores individuais. Escolha o que combina com você.</p>
+
+  <div class="grid md:grid-cols-3 gap-6 mt-10">
+    <div class="pricing">
+      <div class="tag">Plano</div>
+      <div class="title">Treino Técnico 1x</div>
+      <div class="price">R$ 160</div>
+      <p class="desc">1 treino por semana em turma.</p>
+      <a href="/contato.html" class="btn-primary w-full">Assinar</a>
+    </div>
+    <div class="pricing featured">
+      <div class="tag">Mais popular</div>
+      <div class="title">Treino Técnico 2x</div>
+      <div class="price">R$ 225</div>
+      <p class="desc">2 treinos por semana em turma.</p>
+      <a href="/contato.html" class="btn-primary w-full">Assinar</a>
+    </div>
+    <div class="pricing">
+      <div class="tag">Ranking</div>
+      <div class="title">Ranking semanal</div>
+      <div class="price">R$ 20</div>
+      <p class="desc">Aberto a alunos e convidados.</p>
+      <a href="/contato.html" class="btn-primary w-full">Participar</a>
+    </div>
+  </div>
+</section>
+
+<footer class="mt-24 border-t border-slate-200 bg-white">
+  <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8 text-sm">
+    <div>
+      <div class="flex items-center gap-3 mb-3">
+        <img src="/assets/logo.svg" alt="SPIN" class="w-8 h-8 rounded-lg object-contain">
+        <span class="font-bold">SPIN Tênis de Mesa</span>
+      </div>
+      <p class="text-slate-600">Treinos, rankings e eventos em Umuarama-PR. spinumuarama.com.br</p>
+    </div>
+    <div>
+      <div class="font-semibold mb-2">Atendimento</div>
+      <p class="text-slate-600">Seg–Sex: 16h30–21h30 · Sáb: 14h–18h</p>
+      <p class="text-slate-600">Endereço: (preencher)</p>
+    </div>
+    <div>
+      <div class="font-semibold mb-2">Contato</div>
+      <p class="text-slate-600">WhatsApp: <a class="underline" href="https://wa.me/5544999762246">(44) 9 9976-2246</a></p>
+      <p class="text-slate-600">Instagram: <a class="underline" href="https://instagram.com/spin.umuarama" target="_blank">@spin.umuarama</a></p>
+    </div>
+  </div>
+  <div class="border-t border-slate-200 py-6 text-center text-xs text-slate-500">
+    © 2025 SPIN Tênis de Mesa. Todos os direitos reservados.
+  </div>
+</footer>
+
+<a href="https://wa.me/5544999762246" class="fixed bottom-5 right-5 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-sky-600 text-white shadow-lg hover:shadow-xl transition">
+  <img src="/assets/whatsapp.svg" alt="" class="w-5 h-5">
+  <span class="font-semibold">Fale no WhatsApp</span>
+</a>
+
+<script src="/script.js"></script>
+</body>
+</html>
